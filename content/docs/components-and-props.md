@@ -18,7 +18,7 @@ next: state-and-lifecycle.html
 
 Components let you split the UI into independent, reusable pieces, and think about each piece in isolation.
 
-Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called "props") and return React elements describing what should appear on the screen.
+Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called "props", which stands for properties) and return React elements describing what should appear on the screen.
 
 ## Functional and Class Components
 
@@ -30,7 +30,7 @@ function Welcome(props) {
 }
 ```
 
-This function is a valid React component because it accepts a single "props" (which stands for properties) object argument with data and returns a React element. We call such components "functional" because they are literally JavaScript functions.
+This function is a valid React component because it accepts a single "props" object argument with data and returns a React element. We call such components "functional" because they are literally JavaScript functions.
 
 You can also use an [ES6 class](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Classes) to define a component:
 
